@@ -1,0 +1,72 @@
+# Root ignore patterns
+.DS_Store
+Thumbs.db
+.env
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# Python / ai-service
+ai-service/__pycache__/
+ai-service/*.py[cod]
+ai-service/*.pyo
+ai-service/*.pyd
+ai-service/.Python
+ai-service/venv/
+ai-service/.venv/
+ai-service/env/
+ai-service/envs/
+ai-service/.env
+ai-service/.env.*
+ai-service/pip-wheel-metadata/
+ai-service/.pytest_cache/
+ai-service/*.egg-info/
+ai-service/dist/
+ai-service/build/
+ai-service/mypy_cache/
+ai-service/.pyre/
+
+# Go / backend
+backend/bin/
+backend/pkg/
+backend/vendor/
+backend/*.exe
+backend/*.exe~
+backend/*.dll
+backend/*.so
+backend/*.dylib
+backend/*.test
+backend/*.out
+backend/*.a
+backend/*.mod
+backend/*.sum
+backend/go.work
+backend/go.work.sum
+
+# Node / saas-starter-frontend
+saas-starter-frontend/node_modules/
+saas-starter-frontend/.next/
+saas-starter-frontend/.out/
+saas-starter-frontend/.build/
+saas-starter-frontend/dist/
+saas-starter-frontend/.vite/
+saas-starter-frontend/.cache/
+saas-starter-frontend/coverage/
+saas-starter-frontend/*.tsbuildinfo
+saas-starter-frontend/.env
+saas-starter-frontend/.env.*
+saas-starter-frontend/.sass-cache/
+saas-starter-frontend/parcel-stats.json
+
+# IDE/editor files
+*.swp
+*~
+.idea/
+.vscode/
+
+# Optional lockfiles and generated files
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
