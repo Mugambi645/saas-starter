@@ -29,21 +29,8 @@ ai-service/mypy_cache/
 ai-service/.pyre/
 
 # Go / backend
-backend/bin/
-backend/pkg/
-backend/vendor/
-backend/*.exe
-backend/*.exe~
-backend/*.dll
-backend/*.so
-backend/*.dylib
-backend/*.test
-backend/*.out
-backend/*.a
-backend/*.mod
-backend/*.sum
-backend/go.work
-backend/go.work.sum
+
+
 
 # Node / saas-starter-frontend
 saas-starter-frontend/node_modules/
